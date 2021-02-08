@@ -1,15 +1,19 @@
 # Problema de Coloreo de Máximo Impacto
 El código que resuelve el problema del enunciado está en el archivo *pcmi.cpp*.
+Además tenemos las funciones y defines globales en el archivo *definesAndGlobals.cpp*.
+Mientras que las funciones utilizadas para las heuristicas de construcción golosa, se encuentran en *greedyHeuristics.cpp*.
+Finalmente, las funciones utilizadas dentro de la metaheuristica _Tabú Search_ se encuentran en el archivo *tabu_search.cpp*.
+
 Para compilarlo se debe ejecutar el comando
-    *make*
+    *make all*
 en la consola.
 
 Al ejecutarlo se le debe pasar un parámetro que indique cuál algoritmo se desea utilizar entre las siguientes opciones:
-	-[INSERTAR PARAMETROS ACA]
+	-[algoritmo] [params Tabú  -tamanoMemoria -porcentajeSubVecindad -IteracionesSinMejora -Iteraciones]
 
-Además se debe pasar la instancia por entrada estándar. Por ejemplo, EXPLICAR ACA COMO SE LE PASAN LAS INSTANCIAS:
-	cat INST1.txt | ./pcmi -args
-La salida del programa es doble. Por la salida estándar se devuelve lo pedido por el enunciado. Por la STDERR se devuelve el tiempo de ejecución del algoritmo.
+Además se debe pasar la instancia por entrada estándar. Por ejemplo, para la heuristica de Tabú Search con memoria por soluciones y vecindad de soluciones generadas por aplicaciones de swap y change:
+	cat python/instancias/INST1.in | ./pcmi "TSS" 100 30 1000 1000
+La salida del programa es doble. Por la salida estándar se devuelve el impacto pedido por el enunciado junto con el coloreo correspondiente a la solución. Por la STDERR se devuelve el tiempo de ejecución del algoritmo.
 
 La generación de instancias y corrida de experimentos de manera secuencia está programada en Python utilizando Jupyter Lab (https://jupyter.org/). Para ver los notebooks se debe instalar Jupyter Labs siguiendo las instrucciones en su web. Se recomienda seguir los pasos de instalación utilizando pip3.
 

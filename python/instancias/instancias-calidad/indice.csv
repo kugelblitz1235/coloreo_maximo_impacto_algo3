@@ -1,0 +1,14 @@
+dataset,instancia,cantidad_vertices,impacto_esperado,archivo
+instancias-calidad,CMI_n6,6,1,instancias/instancias-calidad/CMI_n6.in
+instancias-calidad,CMI_n8,8,6,instancias/instancias-calidad/CMI_n8.in
+instancias-calidad,CMI_n10,10,3,instancias/instancias-calidad/CMI_n10.in
+instancias-calidad,CMI_n12,12,16,instancias/instancias-calidad/CMI_n12.in
+instancias-calidad,CMI_n14,14,12,instancias/instancias-calidad/CMI_n14.in
+instancias-calidad,CMI_n16,16,20,instancias/instancias-calidad/CMI_n16.in
+instancias-calidad,CMI_n18,18,27,instancias/instancias-calidad/CMI_n18.in
+instancias-calidad,CMI_n20,20,25,instancias/instancias-calidad/CMI_n20.in
+instancias-calidad,CMI_n22,22,26,instancias/instancias-calidad/CMI_n22.in
+instancias-calidad,CMI_n24,24,33,instancias/instancias-calidad/CMI_n24.in
+instancias-calidad,CMI_n26,26,38,instancias/instancias-calidad/CMI_n26.in
+instancias-calidad,CMI_n28,28,48,instancias/instancias-calidad/CMI_n28.in
+instancias-calidad,CMI_n30,30,47,instancias/instancias-calidad/CMI_n30.in
